@@ -1,0 +1,189 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #4285f4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #FFD700; /* Set your desired color for your name, here it's gold */
+    margin-bottom: 5px; /* Adjust margin as needed */
+}
+
+h2, h3 {
+    color: #4285f4;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+#contact {
+    background-color: #57c7e2;
+    color: white;
+}
+
+#career-objective {
+    background-color: #ffbc58;
+    color: #333;
+}
+
+#education {
+    background-color: #8ac926;
+    color: white;
+}
+
+#technical-skills {
+    background-color: #f48984;
+    color: white;
+}
+
+#interpersonal-skills {
+    background-color: #7d4e57;
+    color: white;
+}
+
+#projects {
+    background-color: #0f4c75;
+    color: white;
+}
+
+#certifications {
+    background-color: #f67add;
+    color: white;
+}
+
+#hobbies-and-interests {
+    background-color: #540d6e;
+    color: white;
+}
+
+#extra-curricular {
+    background-color: #42ebee;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Flexbox styling for layout */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header, section, footer {
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+}
+/* Add styles for next and previous buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #4285f4;
+    color: white;
+}
+
+.next-button {
+    background-color: #0f4c75;
+    color: white;
+}
+
+.previous-button {
+    background-color: #7d4e57;
+    color: white;
+}
+/* Your existing CSS with improved styling */
+/* ... */
+
+/* Additional styling for enhanced visual appeal */
+body {
+    background-color: #f9f9f9;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.03);
+}
